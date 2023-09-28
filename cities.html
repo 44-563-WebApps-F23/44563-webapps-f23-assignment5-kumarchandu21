@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <head>
     <title>Cities Visited</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </head>
 <body>
     <h2>Visit cities with Kumar Chandu</h2>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="cities.html">A Few Cities</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="advanced.html">Advanced</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+ 
+    
     <div class="container">
         <div class="row" >
            <div class="col-sm-2" style="background-color: rgb(133, 173, 160)">M</div>
@@ -24,5 +49,166 @@
         </div>
     </div>
     <p>Cities names break first because col-md means column with medium size. So, City names breaks, Whereas col-sm-2 means small so letters don't break.</p>
+    <div class="container">
+        <h5>Images of the cities</h5>
+    <img src="Ahmedabad.jpg" alt="Ahmedabad City" class="img-fluid" width="300" height="300">
+    <img src="Indore.jpg" alt="Indore City" class="img-fluid" width="350" height="400">
+    <img src="Rajhamundry.jpg" alt="Rajhamundry City" class="img-fluid" width="305" height="400">
+    </div>
+    <div class="container">
+        <img src="Ahmedabad.jpg" class="img-thumbnail" alt="Ahmedabad" width="300" height="300">
+        <img src="Indore.jpg" class="img-thumbnail" alt="Indore" width="350" height="400">
+        <img src="Rajhamundry.jpg" class="img-thumbnail" alt="Rajhamundry" width="305" height="400">
+    </div>
+    <div class="container">
+    <caption>Cities Rivers Trees with Lastname</caption>
+    <table class="table table-success table-striped" border="10px" style="border-color: rgb(195, 218, 151);">
+        
+        <thead>
+          <tr>
+            <th scope="col" style="color: orange">Letter</th>
+            <th scope="col" style="color: orange">City</th>
+            <th scope="col" style="color: orange">River</th>
+            <th scope="col" style="color: orange">Tree</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" style="color: rgb(186, 106, 106)">M</th>
+            <th style="color: rgb(87, 135, 177);">Madurai</th>
+            <th style="color: rgb(87, 135, 177);">Mahanadi</th>
+            <th style="color: rgb(87, 135, 177);">Mango</th>
+          </tr>
+          <tr>
+            <th scope="row" style="color: rgb(186, 106, 106)">A</th>
+            <th style="color: rgb(87, 135, 177);">Ahmedabad</th>
+            <th style="color: rgb(87, 135, 177);">Alakananda</th>
+            <th style="color: rgb(87, 135, 177);">Apple</th>
+          </tr>
+          <tr>
+            <th scope="row" style="color: rgb(186, 106, 106)">L</th>
+            <th style="color: rgb(87, 135, 177);">Lucknow</th>
+            <th style="color: rgb(87, 135, 177);">Lachen</th>
+            <th style="color: rgb(87, 135, 177);">Lime</th>
+          </tr>
+          <tr>
+            <th scope="row" style="color: rgb(186, 106, 106)">L</th>
+            <th style="color: rgb(87, 135, 177);">Ludhiana</th>
+            <th style="color: rgb(87, 135, 177);">Luni</th>
+            <th style="color: rgb(87, 135, 177);">Lacebark Pine</th>
+          </tr>
+          <tr>
+            <th scope="row" style="color: rgb(186, 106, 106)">I</th>
+            <th style="color: rgb(87, 135, 177);">Indore</th>
+            <th style="color: rgb(87, 135, 177);">Indus</th>
+            <th style="color: rgb(87, 135, 177);">Indigo</th>
+          </tr>
+          <tr>
+            <th scope="row" style="color: rgb(186, 106, 106)">R</th>
+            <th style="color: rgb(87, 135, 177);">Rajhamundry</th>
+            <th style="color: rgb(87, 135, 177);">Rapti</th>
+            <th style="color: rgb(87, 135, 177);">Redwood</th>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+    <p>Buttons</p>
+    <button type="button" class="btn btn-outline-secondary">M</button>
+    <button type="button" class="btn btn-outline-secondary">A</button>
+    <button type="button" class="btn btn-outline-secondary">L</button>
+    <button type="button" class="btn btn-outline-secondary">L</button>
+    <button type="button" class="btn btn-outline-secondary">I</button>
+    <button type="button" class="btn btn-outline-secondary">R</button>
+    <p>Colored Buttons</p>
+    <div class="btn-toolbar" role="toolbar" aria-label="Basic outlined example">
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <button type="button" class="btn btn-success">A</button>
+            <button type="button" class="btn btn-success">I</button>
+            <button type="button" class="btn btn-success">R</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <button type="button" class="btn btn-warning">M</button>
+            <button type="button" class="btn btn-warning">L</button>
+
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <button type="button" class="btn btn-danger">L</button>
+
+        </div>
+    </div>
+    <h4 class="display-4">Link Dropdown</h4>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Page For Bootstrap  
+        </button>
+        <div class="dropdown-menu">
+            <ul>
+                <li><a class="dropdown-item" href="basic.html">Basic Link</a></li>
+                <li><a class="dropdown-item" href="advanced.html">Advanced Link</a></li>
+            </ul>
+        </div>
+    </div>
+    <form>
+      <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">City</label>
+          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your city">
+      </div>
+      <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <div class="col-sm-3 mb-3 mb-sm-0">
+    <div class="card" style="width: 18rem;">
+        <img src="Ahmedabad.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Ahmedabad City</h5>
+            <p class="card-text">
+              Ahmedabad has emerged as an important economic and industrial hub in India. 
+              It is the second-largest producer of cotton in India, due to which it was known as the 'Manchester of India' along with Kanpur.
+              Ahmedabad's stock exchange (before it was shut down in 2018) was the country's second oldest. Cricket is a popular sport in Ahmedabad; a newly built stadium, called Narendra Modi Stadium, at Motera can accommodate 132,000 spectators, making it the largest stadium in the world. 
+              The world-class Sardar Vallabhbhai Patel Sports Enclave is currently under construction and once complete, it will be one of the biggest sports centers (Sports City) in India.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Ahmedabad " class="btn btn-primary">Wikipedia link for Ahmedabad</a>
+        </div>
+    </div>
+</div>
+<div class="col-sm-3 mb-3 mb-sm-0">
+    <div class="card" style="width: 18rem;">
+        <img src="Indore.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Indore city</h5>
+            <p class="card-text">Indore is the largest and most populous city in the Indian state of Madhya Pradesh.
+              It is consistently ranked as the cleanest city in India. It serves as the headquarters of both the Indore District and the Indore Division. 
+              It is also considered as the state education hub and houses campuses of both the Indian Institute of Technology and the Indian Institute of Management</p>
+              <a href="https://en.wikipedia.org/wiki/Indore " class="btn btn-primary">Wikipedia link for Indore</a>
+        </div>
+    </div>
+</div>
+<div class="col-sm-3 mb-3 mb-sm-0">
+    <div class="card" style="width: 18rem;">
+        <img src="Rajhamundry.jpg" class="card-img-top" alt="trivandram">
+        <div class="card-body">
+            <h5 class="card-title">Rajhamundry city</h5>
+            <p class="card-text">
+            Rajhamundry, officially known as Rajamahendravaram, is a city in the Indian state of Andhra Pradesh and district headquarters of East Godavari district. 
+            It is the fifth most populated city in the state.[9] During British rule, the District of Rajahmundry was created in the Madras Presidency in 1823. 
+            It was reorganised in 1859 and bifurcated into the Godavari and Krishna districts. Rajahmundry was the headquarters of Godavari district, which was further bifurcated into East Godavari and West Godavari districts in 1925. 
+            When the Godavari district was bifurcated, Kakinada became the headquarters of East Godavari and Eluru became the headquarters of West Godavari.[11] It is administered under Rajahmundry revenue division of the East Godavari district.
+            The city is known for its floriculture, history, culture, agriculture, economy, tourism, and its heritage. It is known as the "Cultural Capital of Andhra Pradesh"
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Rajahmundry " class="btn btn-primary">Wikipedia link for Rajahmundry</a>
+        </div>
+    </div>
+</div>
+
+
 </body>
-</html>
+</html
